@@ -1,4 +1,4 @@
-# Awesome cv
+# Awesome cv - CMake build template
 
 This project is meant to be a quick start template to write your own [Awesome CV](https://github.com/posquit0/Awesome-CV)
 locally using Cmake and making use of the great cmake module [UseLatex](https://gitlab.kitware.com/kmorel/UseLATEX).
