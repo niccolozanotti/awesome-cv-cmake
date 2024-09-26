@@ -1,10 +1,19 @@
-# cmake-tex-template
+# Awesome cv
 
-This project is meant to be a quick start template to write a LaTeX document whose compilation is handled by Cmake through UseLATEX [module](https://gitlab.kitware.com/kmorel/UseLATEX/).
+This project is meant to be a quick start template to write your own [Awesome CV](https://github.com/posquit0/Awesome-CV)
+locally using Cmake and making use of the great cmake module [UseLatex](https://gitlab.kitware.com/kmorel/UseLATEX).
 
-For more information check out the documentation of UseLATEX [here](https://gitlab.kitware.com/kmorel/UseLATEX/)
+For more infos check out the documentation of UseLATEX [here](https://gitlab.kitware.com/kmorel/UseLATEX/).
 
-# Quick start
+## Quick build
+
+To quickly build the `.tex` files run 
+```shell
+mkdir build
+cd build
+cmake ..
+make cv # other targets: resume, coverletter
+```
 
 ## License
 

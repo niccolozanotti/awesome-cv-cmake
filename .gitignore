@@ -311,3 +311,7 @@ TSWLatexianTemp*
 # JetBrains config
 .idea/
 cmake-build-debug/
+cmake-jetbrains/
+
+#macOS config files
+.DS_Store
