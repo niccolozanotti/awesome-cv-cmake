@@ -7,19 +7,19 @@ For more infos check out the documentation of UseLATEX [here](https://gitlab.kit
 
 ## Quick start
 
-To quickly build the `.tex` files into the relative pdf run
+One way to quickly compile the `.tex` files into the relative `.pdf` is run
 ```shell
 mkdir build
 cd build
 cmake ..
-make cv # other targets: resume, coverletter
+make target-name # main targets: cv, resume, coverletter
 ```
-The `target-name.pdf` file will be located in the `build/` directory.
+The `target-name.pdf` file will then be located in the `build/` directory.
 
 ### UseLatex module update
 
-If any change in the upstream Cmake module [UseLatex.cmake](UseLATEX.cmake) is detected(the Github [Action](.github/workflows/update-cmake-module.yml)
-runs monthly[^1]) a new Pull Request will be opened.
+If any change in the upstream Cmake module [UseLatex.cmake](UseLATEX.cmake) is detected (the Github [Action](.github/workflows/update-cmake-module.yml)
+runs monthly[^1]) a new Pull Request will be opened to integrate the changes.
 
 ## License
 
